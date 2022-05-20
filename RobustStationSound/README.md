@@ -6,7 +6,7 @@ The **RSS** (Robust Station Sound) format is intended to be a flexible, open, an
 
 An RSS is a folder with a name that ends in `.rss`, and contains a `meta.yaml` and one or more MIDI, OGG, WAV, or other supported files according to the names of the tracks.
 
-The track metadata (what defines author, modifications, etc...) is stored in the `meta.json` file as JSON. The actual sprites are stored in sprite sheets as PNG files in the folder. Each unique state corresponds to a sprite sheet with the same name.
+The track metadata (what defines author, modifications, etc...) is stored in the `meta.yaml` file as YAML. The actual sprites are stored in sprite sheets as PNG files in the folder. Each unique state corresponds to a sprite sheet with the same name.
 
 ## YAML
 
