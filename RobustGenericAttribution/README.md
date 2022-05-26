@@ -1,7 +1,5 @@
 # Documentation
 
-### Note: The RGA name is non-final, please don't exclusively bikeshed over it.
-
 The **RGA** (Robust Generic Attribution) standard is intended to be a flexible, open, and readable way <!--Insert more marketing bull that sounds good here!--> to define various metadata such as licensing and attribution for an arbitrary collection of files of many types such as sound effects or prototypes. An RGA file contains metadata for all of the files in the same directory as the RGA file (not including subdirectories). The entries in an RGA file contain specific metadata such as the author of the file or a description of any modifications made to it (in compliance with many Creative Commons licenses).
 
 An RGA is a YAML file with the name `attributions.yml`, and contains an arbitrary number of entries as defined below.
