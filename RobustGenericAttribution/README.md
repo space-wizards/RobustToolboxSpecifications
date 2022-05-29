@@ -16,7 +16,7 @@ Key | Meaning
 --- | -------
 `files` | An array of filenames (with extensions) that this entry applies to. The filename order is arbitrary.
 `copyright` | The copyright holder and info for finding the source of the file(s).
-`license` | A valid [SPDX License Identifier](https://spdx.org/licenses/) applying to all tracks within this work.
+`license` | A valid [SPDX License Identifier](https://spdx.org/licenses/) applying to all files within an entry.
 `modifications` | Optional. Disclosure of any modifications to comply with applicable licenses.
 
 ### Example YAML
