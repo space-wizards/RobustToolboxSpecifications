@@ -14,7 +14,7 @@ The YAML contains an arbitrary number of entries, covering all files in the same
 
 Key | Meaning
 --- | -------
-`files` | An array of filenames (with extensions) that this entry applies to. The filename order is arbitrary.
+`files` | An array of filenames (with extensions) that this entry applies to. The filename order is arbitrary. The `*` wildcard glob is supported (i.e. `*.ogg` denotes all OGG files in the directory).
 `copyright` | The copyright holder and info for finding the source of the file(s). Any disclosure of modifications to comply with certain licenses should also go in this field.
 `license` | A valid [SPDX License Identifier](https://spdx.org/licenses/) applying to all files within an entry. If a license does not have a valid SPDX identifier, `Custom` may be used but a link to the license should be provided in the `copyright` field.
 
