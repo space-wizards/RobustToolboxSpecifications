@@ -24,7 +24,6 @@ Key | Meaning
 - files: [ "metal1.ogg", "punch.ogg", "zap3.ogg" ]
   license: "CC-BY-SA-3.0"
   copyright: "https://github.com/tgstation/tgstation at commit 583efc098b3ce871715afd02d0f9990150a48ec2"
-  modifications: "Converted to OGG and compressed."
 - files: [ "mind_crawler.ogg" ]
   license: "CC-BY-SA-4.0"
   copyright: "https://github.com/BeeStation/BeeStation-Hornet at commit 10220eb0c787e47e8f845a11b43ed140bbf72889"
