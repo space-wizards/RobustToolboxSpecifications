@@ -15,18 +15,21 @@ The YAML contains an arbitrary number of entries, covering all files in the same
 Key | Meaning
 --- | -------
 `files` | An array of filenames (with extensions) that this entry applies to. The filename order is arbitrary. The `*` wildcard glob is supported (i.e. `*.ogg` denotes all OGG files in the directory).
-`copyright` | The copyright holder and info for finding the source of the file(s). Any disclosure of modifications to comply with certain licenses should also go in this field.
+`copyright` | The copyright holder and other relevant info. Any disclosure of modifications to comply with certain licenses should also go in this field.
 `license` | A valid [SPDX License Identifier](https://spdx.org/licenses/) applying to all files within an entry. If a license does not have a valid SPDX identifier, `Custom` may be used but a link to the license should be provided in the `copyright` field.
+`source` | A valid URL to the location the file was sourced from. Do not include anything that would prevent parsing this field as a URL.
 
 ### Example YAML
 
 ```yaml
-- files: [ "metal1.ogg", "punch.ogg", "zap3.ogg" ]
-  license: "CC-BY-SA-3.0"
-  copyright: "https://github.com/tgstation/tgstation at commit 583efc098b3ce871715afd02d0f9990150a48ec2"
-- files: [ "mind_crawler.ogg" ]
-  license: "CC-BY-SA-4.0"
-  copyright: "https://github.com/BeeStation/BeeStation-Hornet at commit 10220eb0c787e47e8f845a11b43ed140bbf72889"
+- files: ["thunderdome.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "-Sector11 by MashedByMachines. Converted from MP3 to OGG."
+  source: "https://www.newgrounds.com/audio/listen/312622"
+- files: ["endless_space.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Endless Space by SolusLunes. Converted from MP3 to OGG."
+  source: "https://www.newgrounds.com/audio/listen/67583"
 ```
 
 ## Design Goals
