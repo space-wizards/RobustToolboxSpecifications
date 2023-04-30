@@ -17,7 +17,7 @@ Key | Meaning
 `files` | An array of filenames (with extensions) that this entry applies to. The filename order is arbitrary. The `*` wildcard glob is supported (i.e. `*.ogg` denotes all OGG files in the directory).
 `copyright` | The copyright holder and other relevant info. Any disclosure of modifications to comply with certain licenses should also go in this field.
 `license` | A valid [SPDX License Identifier](https://spdx.org/licenses/) applying to all files within an entry. If a license does not have a valid SPDX identifier, `Custom` may be used but a link to the license should be provided in the `copyright` field.
-`source` | A valid URL to the location the file was sourced from. Do not include anything that would prevent parsing this field as a URL.
+`source` | A valid URL or list of URLs to the location(s) the file was sourced from. Only accepts valid URLs. If there is no applicable URL, this can be omitted.
 
 ### Example YAML
 
