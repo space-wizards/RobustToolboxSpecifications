@@ -1,4 +1,3 @@
 # RobustToolboxSpecifications
-A repository for specs for file/directory formats and other important parts of RobustToolbox.
-## Submitting specs
-Each specification set should go within it's own, appropriately titled folder. For example, the Robust Station Image spec would go in `RobustStationImage/{README.md, otherFilesHere}`
+
+This repo is no longer in use. Specifications should be viewed at https://docs.spacestation14.com/ (https://github.com/space-wizards/docs/tree/master/src/en/specifications).
